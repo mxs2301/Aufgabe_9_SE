@@ -13,6 +13,8 @@ private:
 public:
 	Date(int Day, int Month, int Year);
 
+	Date(int a);
+
 	void printDate();
 
 };

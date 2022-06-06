@@ -4,4 +4,4 @@
 
 - [ ] Heulen
 - [ ] Redundanz Programmieren
-- [ ] Testablauf schreiben
+- [ ] Testablauf schreibens

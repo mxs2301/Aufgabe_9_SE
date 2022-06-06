@@ -7,6 +7,9 @@ Month(Month),
 Year(Year)
 {}
 
+Date::Date(int a){}
+
+
 void Date::printDate(){
 
 	printf("%d.%d.%d", Day, Month, Year);

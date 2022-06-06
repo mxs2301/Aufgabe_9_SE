@@ -3,6 +3,7 @@
 
 #include <string>
 #include "Nachricht.h"
+#include "Nachrichtendienst.h"
 
 
 class Sender {
@@ -10,16 +11,20 @@ class Sender {
 private:
 	std::string name;
 	std::string addresse;
-	
+	Nachrichtendienst middleman;
+
 public:
 	Sender(std::string name, std::string addresse);
 
 
-	void send(Nachricht n, std::string e);
+	void send(Nachricht n, std::string e,  std::string x);
 
 	void send(Nachricht n);
 
+	std::string getName();
 
+
+	Nachricht getStuff();
 
 };
 

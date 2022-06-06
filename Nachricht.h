@@ -38,6 +38,16 @@ public:
 	Multimedianachricht(false)
 	{}
 
+	Nachricht(int a):
+	date(0),
+	sent(false),
+	received(false),
+	read(false),
+	length(0),
+	Textnachricht("No text"),
+	Multimedianachricht(false)
+	{}
+
 
 	Date getDate(){
 		return date;
