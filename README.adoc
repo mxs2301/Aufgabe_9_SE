@@ -1,0 +1,7 @@
+= Aufgabe_9_SE
+
+*To-Do*
+
+- [ ] Heulen
+- [ ] Redundanz Programmieren
+- [ ] Testablauf schreiben
