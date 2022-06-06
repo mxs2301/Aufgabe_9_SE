@@ -2,6 +2,7 @@
 
 *To-Do*
 
-- [ ] Heulen
-- [ ] Redundanz Programmieren
-- [ ] Testablauf schreibens
+- [x] +++<s>Heulen</s>+++
+- [x] +++<s>Redundanz Programmieren</s>+++
+- [x] +++<s>Testablauf schreibens</s>+++
+- [X] +++<s>Studiumsabbruch plane</s>+++
