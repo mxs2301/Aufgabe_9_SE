@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <iostream>
+#include <string>
 #include "Empfaenger.h"
 #include "Nachricht.h"
 #include "Date.h"
@@ -9,21 +10,21 @@ int main(){
 
 	Date Heute(6, 7, 2022);
 
-	std::string FUCK = "Bitte Geben Sie mir einen Kompetenten Arbeitspartner";
+	std::string Text = "Dies ist der aktuelle Tag : ";
 
-	Nachricht help(Heute, FUCK);
+	Nachricht help(Heute, Text);
 
-	Sender Hurensohn("I am Pissed", "Fuck you thats why");
+	Sender sender("Max", "Schopf");
 
-	Hurensohn.send(help, "Manfred", "Fairytale");
-
-
-	Empfaenger Ende("Manfred", "Ach fick dich Alex");
+	sender.send(help, "Max Schopf", "Wetterbericht Deutschland");
 
 
-	Ende.receiveNachricht(Hurensohn.getStuff());
+	Empfaenger empfang("Wetterbericht", "Berlin");
 
-	Ende.getNachricht();
+
+	empfang.receiveNachricht(sender.getStuff());
+
+	empfang.getNachricht();
 
 	return 0;
 }

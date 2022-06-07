@@ -17,6 +17,7 @@ public:
   void receiveNachricht(Nachricht input);
   Empfaenger(std::string name, std::string addresse);
 
+  void printDate();
 
 
 };

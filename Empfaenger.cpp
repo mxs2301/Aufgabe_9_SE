@@ -3,9 +3,16 @@
 #include "Nachricht.h"
 #include <iostream>
 
+
+void Empfaenger::printDate(){
+	recent.getDate().printDate();
+}
+
 void Empfaenger::getNachricht() {
 	
-	std::cout << recent.getText() << std::endl;
+	std::cout << recent.getText();
+	printDate();
+	std::cout << "\n";
 }
 
 
